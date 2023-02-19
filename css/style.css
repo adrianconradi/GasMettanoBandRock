@@ -1,0 +1,249 @@
+/* Estructura general */
+
+a{
+    color: red;
+    font-family: dejavu-serif;
+}
+body{
+    background-color: black;
+}
+
+.logoMarca{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+         
+}
+header nav{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+
+}
+footer p{
+    color:red;
+    text-align: center;
+    font-family: dejavu-serif;
+    font-size: small;
+    padding: 30px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: vampire-wars;
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    top: 50%; 
+    right: 50%;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #919191,
+            1px 2px 1px #919191,
+            1px 3px 1px #919191,
+            1px 4px 1px #919191,
+            1px 5px 1px #919191,
+            1px 6px 1px #919191,
+            1px 7px 1px #919191,
+            1px 8px 1px #919191,
+            1px 9px 1px #919191,
+            1px 10px 1px #919191,
+        1px 18px 6px rgba(16,16,16,0.4),
+        1px 22px 10px rgba(16,16,16,0.2),
+        1px 25px 35px rgba(16,16,16,0.2),
+        1px 30px 60px rgba(16,16,16,0.4);
+}
+
+/* pagina inicio */
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+
+/* pagina sobre nosotros */
+
+
+.MainSobrenosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Texto__MainSobrenosotros{
+    width: 300px;
+    height: 500px;
+    text-align: justify;
+    
+}
+.imgGuitarra{
+    width: 250px;
+    height: 500px;
+}
+
+/* pagina galeria */
+
+.FotosGaleria{
+    width: 1050px;
+    height: 350px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+/* pagina redes sociales */
+
+div img{
+    width: 350px;
+    height: 350px; 
+    
+
+}
+
+/* pagina contactanos */
+
+div form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 60px;
+}
+
+section p{
+    color: white;
+    text-shadow: 2px 4px 10px red;
+    font-family: dejavu-serif;
+    font-size: small;
+}
+input{
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #484242;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+select{
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #484242;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #484242;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #6e6b6b, #0c0c0c, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+button:active {
+    color: #484242
+}
+
+button:active:after {
+    background: transparent;
+}
+
+button:hover:before {
+    opacity: 1;
+}
+
+button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+label{
+    color: white;
+    font-family: dejavu-serif;
+    font-size: small;
+}
+div p{
+    color: white;
+}
+div h1{
+    color: white;
+    font-family: vampire-wars;
+    font-size: xx-large;
+}
+nav a{
+    font-family: noto-serif;
+    font-size: large;   
+    display: table-cell;
+     
+
+}
+@font-face {
+    font-family: vampire-wars;
+    src: url(../fuentes/Vampire\ Wars.ttf);
+}
+@font-face {
+    font-family: dejavu-serif;
+    src: url(../fuentes/DejaVuSerif.ttf);
+}
+@font-face {
+    font-family: noto-serif-display;
+    src: url(../fuentes/NotoSerifDisplay-Black.ttf);
+} 
+
+  
+
+
+
+
+
+
