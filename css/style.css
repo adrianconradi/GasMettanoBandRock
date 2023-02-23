@@ -27,7 +27,6 @@ footer p{
 }
 h1{
     color: white;
-    font-size: 30px;
     font-family: vampire-wars;
     font-size: 400%;
     display: flex;
@@ -131,8 +130,8 @@ main section{
 /* pagina redes sociales */
 
 div img{
-    width: 350px;
-    height: 350px; 
+    width: 250px;
+    height: 250px; 
 }
 
 /* pagina contactanos */
@@ -271,36 +270,18 @@ nav a{
 /* media query para celular*/
 
 @media (max-width:576px){
-    
-#h1{
-    font-size: small;
-      
+ 
+    .col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-#section.div{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    .FotosGaleria{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
 }
-#main{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-#div.a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#section{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-} 
-
-}
-
-
-
-
-
