@@ -117,8 +117,7 @@ main section{
 /* pagina galeria */
 
 .FotosGaleria{
-    width: 1000px;
-    height: 250px;
+    width: 100%;
     margin: 30px;
     display: flex;
     flex-direction: row;
@@ -276,13 +275,20 @@ nav a{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 90%;
     }
     .FotosGaleria{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 150px;
-        height: 150px;
+        width: 90%;
+        
         margin: 10px;
+    }
+    .formato-video{
+        width: 90%;
+    }
+    .VideoPortada{
+        width: 90%;
     }
 }
