@@ -282,11 +282,11 @@ nav a{
         flex-direction: column;
         align-items: center;
         width: 90%;
-        
         margin: 10px;
     }
     .formato-video{
         width: 90%;
+        margin: 10px;
     }
     .VideoPortada{
         width: 90%;
