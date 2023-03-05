@@ -1,0 +1,46 @@
+
+header{
+    .logoMarca{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;        
+    }
+}
+
+.navbar-brand {
+	color: $color-tipografia-navbar;
+	--bs-nav-link-hover-color: #dc7d35;
+}
+.navbar-nav {
+	.nav-link.active {
+		color: $color-tipografia-navbar;
+		--bs-nav-link-hover-color: #dc7d35;
+		font-size: large;
+		display: flex;
+		justify-content: space-between;
+	}
+	.show {
+		>.nav-link {
+			color: $color-tipografia-navbar;
+			--bs-nav-link-hover-color: #dc7d35;
+			font-size: large;
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
+.nav-link {
+	color: $color-tipografia-navbar;
+	--bs-nav-link-hover-color: #dc7d35;
+	font-size: large;
+	display: flex;
+	justify-content: space-between;
+}
+.navbar-expand-lg {
+	.navbar-nav {
+		display: flex;
+		justify-content: space-between;
+	}
+}

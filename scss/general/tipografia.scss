@@ -1,0 +1,20 @@
+
+
+@font-face {
+    font-family: vampire-wars;
+    src: url(../../fuentes/VampireWars.ttf);
+}
+@font-face {
+    font-family: dejavu-serif;
+    src: url(../../fuentes/DejaVuSerif.ttf);
+}
+@font-face {
+    font-family: noto-serif-display;
+    src: url(../../fuentes/NotoSerifDisplay-Black.ttf);
+}
+
+$font-family-primaria: vampire-wars;
+$font-family-secundaria: dejavu-serif;
+$font-family-terciaria: noto-serif-display;
+
+

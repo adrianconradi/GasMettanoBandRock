@@ -70,12 +70,12 @@ main section{
 }
 .navbar-brand{
     color: #ff0000;
-    --bs-nav-link-hover-color: #dc7d35;
+    --bs-nav-link-hover-color: $color-tipografia-navbar-hover;
     
 }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
     color: #ff0000;
-    --bs-nav-link-hover-color: #dc7d35;
+    --bs-nav-link-hover-color: $color-tipografia-navbar-hover;
     font-size: large;
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@ main section{
 }
 .nav-link{
     color: #ff0000;
-    --bs-nav-link-hover-color: #dc7d35;
+    --bs-nav-link-hover-color: $color-tipografia-navbar-hover;
     font-size: large;
     display: flex;
     justify-content: space-between;
@@ -180,7 +180,7 @@ button{
     border: none;
     outline: none;
     color: #fff;
-    background: #484242;
+    background: #9d9999;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -203,7 +203,7 @@ button:before {
     border-radius: 10px;
 }
 button:active {
-    color: #484242
+    color: #9e9898
 }
 
 button:active:after {
@@ -220,7 +220,7 @@ button:after {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #111;
+    background: #5b5757;
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -247,7 +247,7 @@ div h1{
     font-size: xx-large;
 }
 nav a{
-    font-family: noto-serif;
+    font-family: noto-serif-display;
     font-size: large;   
     display: table-cell;
      
