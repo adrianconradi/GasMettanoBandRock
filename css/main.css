@@ -74,6 +74,10 @@ body {
     --bs-bg-opacity: 1;
     background-color: black !important; }
 
+.texto-main, .parrafo_inicio, .Texto__MainSobrenosotros {
+  display: flex;
+  text-align: justify; }
+
 main section {
   display: flex;
   flex-direction: column;
@@ -91,8 +95,7 @@ main section {
 
 .Texto__MainSobrenosotros {
   width: 300px;
-  height: 500px;
-  text-align: justify; }
+  height: 500px; }
 
 .imgGuitarra {
   width: 250px;
@@ -136,7 +139,7 @@ section p {
   color: white;
   text-shadow: 2px 4px 10px red;
   font-family: dejavu-serif;
-  font-size: small; }
+  font-size: medium; }
 
 input {
   width: 220px;
@@ -209,7 +212,7 @@ button {
 label {
   color: white;
   font-family: dejavu-serif;
-  font-size: small; }
+  font-size: medium; }
 
 @media (max-width: 576px) {
   .col {

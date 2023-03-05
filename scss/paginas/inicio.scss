@@ -1,3 +1,7 @@
+.texto-main{
+    display: flex;
+    text-align: justify;
+}
 
 main {
 	section {
@@ -10,4 +14,6 @@ main {
 .parrafo_inicio {
 	margin: 60px;
 	font-size: large;
+    @extend .texto-main
 }
+
