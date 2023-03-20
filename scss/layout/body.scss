@@ -19,7 +19,7 @@ body{
     }
 
     h1{
-        @include titulo-principal(white, $font-family-primaria, xx-large);
+        @include titulo-principal(white, "vampire-wars", xx-large);
         display: flex;
         justify-content: center;
         margin: 100px;
